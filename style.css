@@ -1,0 +1,82 @@
+body {
+            font-family: 'Indo';
+            background-image: url('assets/venice.jpg');
+            background-position: center;
+            background-size: 110%;
+            margin: 0;
+            color: rgb(0, 0, 0); /* Text color */
+            letter-spacing: 3px;
+        }  
+
+       @font-face { font-family: 'Indo'; src: url('Poppins-Bold.ttf'); } 
+        
+        button {
+            font-family: 'Indo';
+            border-radius: 10px;
+            height: 75px;
+            width: 300px;
+            font-size: 20px;
+            border: 3px solid #949495;
+            text-align: center;
+            margin-top: 15px;
+            background-color: #f5f6f8;
+            box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+            letter-spacing: 3px;
+            transition: .2s ease;
+        }
+
+        button:hover {
+            transform: scale(1.03);
+        }
+
+        input {
+
+            font-family: 'Indo';
+            border-radius: 5px;
+            border: 3px solid #949495;
+            height: 50px;
+            width: 400px;
+            text-align: center;
+            margin-top: 15px;
+            background-color: #f5f6f8;
+            box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+            transition: 0.1s ease;
+
+        }
+
+        .button {
+
+            color: white;
+            font-size: 20px;
+            background-color: rgb(214, 186, 29);
+            transition: 0.5s ease;
+
+        }
+
+        .button:hover {
+
+            transform: scale(1.05);
+
+        }
+
+        .submit {
+
+            color: white;
+            font-size: 20px;
+            background-color: rgb(56, 172, 56);
+            transition: 0.5s ease;
+
+        }
+
+        .submit:hover {
+
+            transform: scale(1.05);
+            background-color: rgb(33, 129, 33);
+
+        }
+
+        .submit:hover:active {
+
+            transform: scale(1.5);
+
+        }
